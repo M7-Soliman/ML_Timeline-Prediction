@@ -10,5 +10,5 @@ The dataset we are going to use is from Imperial Marble and Granite, a counterto
 Logistic regression performed the best across all metrics, with an accuracy, precision, recall, and F1 scores of 0.65. This shows that our model isn’t a good predictor of timeliness of payment for Imperial Marble and Granite. We think the low metrics are likely due to the lack of data. We only had around 1800 data points, while we had 10 features, likely causing our model to suffer from the curse of dimensionality. However, using less features also reduced our metrics, which suggests that in addition to not having sufficient data, there might not be any relationship between our features to begin with. Our feature selection analysis supports this, as accuracy did not increase or decrease significantly from removing features.
 
 
-## 
+## Future Steps
 As can be seen from our results above, the dataset that we had was not sufficient to classify payments as being late or not with more than about 65% accuracy. Although this is certainly better than random guessing, it is not exactly as high as we had initially hoped. Thus, if we were to revisit this problem in the future, we would hopefully have access to more data. Having additional features such as customer credit scores would have also been helpful as they are better predictors of timeliness of payments.
