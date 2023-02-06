@@ -1,4 +1,3 @@
-# Machine-Learning-Project
  
 ## Team
 Mohamed Soliman Elhussiny, Armando Mendez, Will Xue, Danish Bokhari, Maddie Clubb 
